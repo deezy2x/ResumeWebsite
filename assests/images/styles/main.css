@@ -188,7 +188,20 @@ li{
     display: table;
 
 }
-
+footer {
+    background-color: #2b3031;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media(max-width:600px){
     .section--page{
         padding-top: 1em;
